@@ -25,7 +25,6 @@
             localPoint.Longitude = longitude;
             localTBell.Name = name;
             localTBell.Location = localPoint;
-
             return localTBell;
         }
     }
