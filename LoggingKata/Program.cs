@@ -14,9 +14,6 @@ namespace LoggingKata
 
         static void Main(string[] args)
         {
-            SoundPlayer player = new SoundPlayer("NzY3NjM2OTc2NzY3NzU4_7Fm3oTONyUQ.wav");
-            player.Load();
-            player.Play();
             logger.LogInfo("Log initialized");
             var lines = File.ReadAllLines(csvPath);
             if (lines.Length == 0)
@@ -80,7 +77,6 @@ namespace LoggingKata
          (_ )__\_)\(_/__( _)
              ))))\X\ ((((
                \/ \/");
-            Thread.Sleep( 30000 );
 
         }
     }
