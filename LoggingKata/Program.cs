@@ -60,6 +60,26 @@ namespace LoggingKata
             Console.WriteLine($"flying at 500 miles per hour it would take you {distanceMiles / 500} hours to get there");
             Console.WriteLine($"Thats only {Math.Round((distanceMiles / 500)*60)} minutes");
             Console.WriteLine($"You would only need {Math.Round((distanceMiles / 500) * 30)} tacos for the flight");
+            Console.WriteLine(@"
+  _______                  _ 
+ |__   __|                | |
+    | | __ _  ___ ___  ___| |
+    | |/ _` |/ __/ _ \/ __| |
+    | | (_| | (_| (_) \__ \_|
+    |_|\__,_|\___\___/|___(_)");
+            Console.WriteLine(@"
+               ._-'-_ .
+          . '  /_-_-_\   ` .
+       .'     |-_-_-_-|      `.
+      (       `.-_-_-.'        )
+      !`.                    .'!
+        ! ` .            . ' !
+          ! ! ! ! ! ! ! !  !
+            / /       \ \
+          _-| \___ ___/ /-_
+         (_ )__\_)\(_/__( _)
+             ))))\X\ ((((
+               \/ \/");
             Thread.Sleep( 30000 );
 
         }
